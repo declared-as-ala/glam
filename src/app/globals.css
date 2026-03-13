@@ -1,0 +1,26 @@
+@import "../styles/fonts.css";
+@import "../styles/tailwind.css";
+@import "../styles/theme.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #111827;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.slick-dots li button:before {
+  color: #3ab7a5 !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
